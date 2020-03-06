@@ -38,6 +38,7 @@ p[ Your application must provide standard user authentication, including signup,
 
 [X] Do not use scaffolding to build your project. Your goal here is to learn. Scaffold is a way to get up and running quickly, but learning a lot is not one of the benefits of scaffolding.
 
+# Feature requests
 * Scope method: filter Cafe by location (ZIP code/ address) and Ratings
 * Model method: return rating of a Cafe based on average rating associated Reviews 
 * View helper method: convert location zip code from "Address string" into "Google-Maps-code" -> encapsulating logic out of views
@@ -46,3 +47,13 @@ p[ Your application must provide standard user authentication, including signup,
 * Nested resources: 
 ** users/:id/favorites and users/:id/favorites/new (drodown list of cafes to choose from - save cafe_id)
 ** cafe/:id/reviews/new
+
+# To do:
+## Cafes
+### Controller
+* index
+### model
+### routes
+* get '/cafes', to: 'cafes#index'
+### views
+* index
