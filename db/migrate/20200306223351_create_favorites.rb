@@ -1,7 +1,7 @@
 class CreateFavorites < ActiveRecord::Migration[6.0]
   def change
     create_table :favorites do |t|
-      t.string :reason
+      t.string :label
       t.integer :user_id
       t.integer :cafe_id
 

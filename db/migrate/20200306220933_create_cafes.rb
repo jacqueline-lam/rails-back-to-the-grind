@@ -1,4 +1,4 @@
-class CreateCaves < ActiveRecord::Migration[6.0]
+class CreateCafes < ActiveRecord::Migration[6.0]
   def change
     create_table :cafes do |t|
       t.string :name
