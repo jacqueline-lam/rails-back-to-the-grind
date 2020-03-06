@@ -1,0 +1,16 @@
+class CreateReviews < ActiveRecord::Migration[6.0]
+  def change
+    create_table :reviews do |t|
+      t.string :comment
+      t.integer :quietness_rating
+      t.integer :spaciousness_rating
+      t.integer :lighting_rating
+      t.integer :beverage_rating
+      t.string :overall_rating
+      t.integer :user_id
+      t.string :cafe_id
+
+      t.timestamps
+    end
+  end
+end
